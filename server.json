@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/meok-mcp-cardgen-mcp",
+  "version": "1.0.0",
+  "description": "MEOK MCP Cardgen — generate signed .well-known MCP server cards (SEP-1649 + SEP-1960 + SEP-2127). Claude Desktop 2.1 + Cursor 2026.4 auto-discover servers via these. By MEOK AI Labs.",
+  "repository": { "url": "https://github.com/CSOAI-ORG/meok-mcp-cardgen-mcp", "source": "github" },
+  "packages": [{ "registryType": "pypi", "identifier": "meok-mcp-cardgen-mcp", "version": "1.0.0", "runtimeHint": "python", "transport": { "type": "stdio" } }],
+  "remotes": [{ "type": "streamable-http", "url": "https://api.meok.ai/v1/dev/mcp-cardgen" }]
+}
