@@ -1,0 +1,19 @@
+name: meok-mcp-cardgen-mcp
+description: "> ## 🧱 Free MIT · paid hosted card-validation badge from £29/mo"
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/MEOK-AI-Labs/meok-mcp-cardgen-mcp
+license: MIT
+categories:
+  - compliance
+  - ai
+  - governance
+
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+    - fastapi
+    - uvicorn
+    - mcp

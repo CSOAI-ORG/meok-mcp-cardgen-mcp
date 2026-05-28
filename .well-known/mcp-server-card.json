@@ -1,0 +1,34 @@
+{
+  "name": "meok-mcp-cardgen-mcp",
+  "title": "Meok Mcp Cardgen Mcp",
+  "description": "MEOK MCP Cardgen \u2014 generate signed .well-known MCP server cards (SEP-1649 + SEP-1960 + SEP-2127). Claude Desktop 2.1 + Cursor 2026.4 auto-discover servers via these. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "emit_sep_1649_card"
+    },
+    {
+      "name": "emit_sep_1960_card"
+    },
+    {
+      "name": "emit_sep_2127_card"
+    },
+    {
+      "name": "emit_all_cards"
+    },
+    {
+      "name": "validate_card"
+    },
+    {
+      "name": "sign_card"
+    },
+    {
+      "name": "list_shapes"
+    }
+  ]
+}

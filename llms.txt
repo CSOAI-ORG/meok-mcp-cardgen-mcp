@@ -1,0 +1,23 @@
+# meok-mcp-cardgen-mcp
+
+> MEOK MCP Cardgen — generate signed .well-known MCP server cards (SEP-1649 + SEP-1960 + SEP-2127). Claude Desktop 2.1 + Cursor 2026.4 auto-discover servers via these. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- emit_sep_1649_card
+- emit_sep_1960_card
+- emit_sep_2127_card
+- emit_all_cards
+- validate_card
+- sign_card
+- list_shapes
+
+## Install
+```
+pip install meok-mcp-cardgen-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-mcp-cardgen-mcp/
+- Docs: https://meok.ai
