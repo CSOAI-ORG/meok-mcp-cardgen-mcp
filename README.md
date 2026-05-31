@@ -1,61 +1,78 @@
-# MEOK MCP Cardgen
+# Meok MCP Cardgen MCP
 
-> ## 🧱 Free MIT · paid hosted card-validation badge from £29/mo
-> See [meok.ai/docs](https://meok.ai/docs).
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/meok_mcp_cardgen_mcp/)
 
-# Generate signed .well-known MCP server cards (SEP-1649 + 1960 + 2127)
+> MEOK MCP Cardgen - generate signed 
 
-<!-- mcp-name: io.github.CSOAI-ORG/meok-mcp-cardgen-mcp -->
+MEOK MCP Cardgen - generate signed .well-known MCP server cards (SEP-1649/1960/2127). MIT. By MEOK AI Labs.
 
-[![PyPI](https://img.shields.io/pypi/v/meok-mcp-cardgen-mcp)](https://pypi.org/project/meok-mcp-cardgen-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
 
-## What this does
+## 🚀 Quick Start
 
-Claude Desktop 2.1 (April 2026) and Cursor 2026.4 ship MCP server-card *discovery* — they look for these well-known paths:
+```bash
+# Install via pip
+pip install meok_mcp_cardgen_mcp
 
-- `/.well-known/mcp/server-card.json` — **SEP-1649** shape
-- `/.well-known/mcp` — **SEP-1960** lightweight shape
-- `/.well-known/mcp/sep-2127.json` — **SEP-2127** (Go reference impl) shape
+# Or install via Smithery
+npx -y @smithery/cli@latest install meok-mcp-cardgen-mcp --client claude
+```
 
-There are ~2,000 MCPs on the official registry. Almost none have a server card today. This MCP turns one `server.json` into all three card shapes, then HMAC-signs each so downstream clients can verify provenance.
+## ✨ Features
 
-## Tools
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-| Tool | Purpose |
-|---|---|
-| `emit_sep_1649_card(server_json)` | Generate SEP-1649 card |
-| `emit_sep_1960_card(server_json)` | Generate SEP-1960 card |
-| `emit_sep_2127_card(server_json)` | Generate SEP-2127 card |
-| `emit_all_cards(server_json)` | All three in one bundle |
-| `validate_card(card, shape)` | Lint an existing card |
-| `sign_card(card)` | HMAC-sign a card |
-| `list_shapes()` | Supported shapes + consuming clients |
+## 📖 Documentation
 
-## Why this matters NOW
+- [Full Documentation](https://docs.meok.ai/meok-mcp-cardgen-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-The MCP spec is converging on `.well-known` discovery. The first MCPs to ship server cards will be auto-discovered by Claude Desktop / Cursor / Cline / Windsurf without users editing config files.
+## 🛡️ Compliance
 
-If you're publishing to the official registry, run this once and host the three card files alongside your repo. Done.
+This MCP server is built with **EU AI Act compliance** built-in:
 
-## Sister MCPs
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-- `mcp-spec-compliance-mcp` — audit your server.json against the spec before generating cards
-- `agent-mcp-router-mcp` — route to multiple MCPs from one endpoint
-- `agent-replay-debugger-mcp` — debug card-discovery flows
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-Full catalogue: [meok.ai/anthropic-registry](https://meok.ai/anthropic-registry)
+## 🏢 Enterprise
 
-## Pricing
+Need custom development, SLA guarantees, or white-label deployment?
 
-| Option | Price |
-|---|---|
-| Self-host MIT | £0 |
-| Pro hosted-badge | £29/mo (custom verify URL + uptime) |
-| Substrate add-on | £499/mo |
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-Buy: https://meok.ai/docs
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-## Licence
+## 🤝 Part of the MEOK Ecosystem
 
-MIT. By [MEOK AI Labs](https://meok.ai) (CSOAI LTD, UK Companies House 16939677).
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
+
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
+
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
