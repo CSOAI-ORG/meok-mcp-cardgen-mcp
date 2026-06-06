@@ -1,4 +1,7 @@
 # Meok MCP Cardgen MCP
+mcp-name: io.github.CSOAI-ORG/meok-mcp-cardgen-mcp
+
+# MEOK MCP Cardgen
 
 [![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
@@ -118,3 +121,4 @@ Once configured, ask your assistant, for example:
 - "Use `emit_sep_1649_card` to …"
 - "Use `emit_sep_1960_card` to …"
 - "Use `emit_sep_2127_card` to …"
+<!-- BUY-LADDER:END -->
