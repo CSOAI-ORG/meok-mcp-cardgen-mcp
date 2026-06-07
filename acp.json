@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-mcp-cardgen-mcp",
+    "description": "MEOK MCP Cardgen \u2014 generate signed .well-known MCP server cards (SEP-1649 + SEP-1960 + SEP-2127)",
+    "version": "1.0.1",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-mcp-cardgen-mcp"
+      }
+    ],
+    "capabilities": [
+      "emit_sep_1649_card",
+      "emit_sep_1960_card",
+      "emit_sep_2127_card",
+      "emit_all_cards",
+      "validate_card",
+      "sign_card",
+      "list_shapes"
+    ]
+  }
+}

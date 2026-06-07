@@ -1,0 +1,86 @@
+{
+  "name": "meok-mcp-cardgen-mcp",
+  "description": "MEOK MCP Cardgen \u2014 generate signed .well-known MCP server cards (SEP-1649 + SEP-1960 + SEP-2127)",
+  "url": "https://proofof.ai/scorecard/meok-mcp-cardgen-mcp.html",
+  "version": "1.0.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "emit_sep_1649_card",
+      "name": "Emit Sep 1649 Card",
+      "description": "emit_sep_1649_card via meok-mcp-cardgen-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "emit_sep_1960_card",
+      "name": "Emit Sep 1960 Card",
+      "description": "emit_sep_1960_card via meok-mcp-cardgen-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "emit_sep_2127_card",
+      "name": "Emit Sep 2127 Card",
+      "description": "emit_sep_2127_card via meok-mcp-cardgen-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "emit_all_cards",
+      "name": "Emit All Cards",
+      "description": "emit_all_cards via meok-mcp-cardgen-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_card",
+      "name": "Validate Card",
+      "description": "validate_card via meok-mcp-cardgen-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "sign_card",
+      "name": "Sign Card",
+      "description": "sign_card via meok-mcp-cardgen-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_shapes",
+      "name": "List Shapes",
+      "description": "list_shapes via meok-mcp-cardgen-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
