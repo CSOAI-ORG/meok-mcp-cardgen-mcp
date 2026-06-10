@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-mcp-cardgen-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-mcp-cardgen-mcp"
+      ]
+    }
+  }
+}
