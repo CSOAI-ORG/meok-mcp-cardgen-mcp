@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/meok-mcp-cardgen-mcp",
-  "version": "1.0.0",
-  "description": "MEOK MCP Cardgen \u2014 generate signed .well-known MCP server cards (SEP-1649 + SEP-1960 + SEP-2127)",
+  "version": "1.0.1",
+  "description": "MEOK MCP Cardgen — generate signed .well-known MCP server cards (SEP-1649 + SEP-1960 + SEP-2127)",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/meok-mcp-cardgen-mcp",
     "source": "github"
@@ -11,7 +11,7 @@
     {
       "registryType": "pypi",
       "identifier": "meok-mcp-cardgen-mcp",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "runtimeHint": "python",
       "transport": {
         "type": "stdio"
