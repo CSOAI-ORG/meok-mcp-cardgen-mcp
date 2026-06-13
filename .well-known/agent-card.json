@@ -1,0 +1,151 @@
+{
+  "name": "Meok Mcp Cardgen Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-mcp-cardgen-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "MEOK MCP Cardgen — generate signed .well-known MCP server cards (SEP-1649 + SEP-1960 + SEP-2127). Claude Desktop 2.1 + Cursor 2026.4 auto-discover servers via these. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "emit_sep_1649_card",
+      "name": "Emit Sep 1649 Card",
+      "description": "Emit Sep 1649 Card — a tool of the meok-mcp-cardgen-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "emit_sep_1960_card",
+      "name": "Emit Sep 1960 Card",
+      "description": "Emit Sep 1960 Card — a tool of the meok-mcp-cardgen-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "emit_sep_2127_card",
+      "name": "Emit Sep 2127 Card",
+      "description": "Emit Sep 2127 Card — a tool of the meok-mcp-cardgen-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "emit_all_cards",
+      "name": "Emit All Cards",
+      "description": "Emit All Cards — a tool of the meok-mcp-cardgen-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "validate_card",
+      "name": "Validate Card",
+      "description": "Validate Card — a tool of the meok-mcp-cardgen-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sign_card",
+      "name": "Sign Card",
+      "description": "Sign Card — a tool of the meok-mcp-cardgen-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_shapes",
+      "name": "List Shapes",
+      "description": "List Shapes — a tool of the meok-mcp-cardgen-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-mcp-cardgen-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-mcp-cardgen-mcp"
-version = "1.0.1"
+version = "1.0.2"
 description = "MEOK MCP Cardgen — generate signed .well-known MCP server cards (SEP-1649 + SEP-1960 + SEP-2127). Claude Desktop 2.1 + Cursor 2026.4 auto-discover servers via these. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
